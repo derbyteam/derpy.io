@@ -1,0 +1,597 @@
+@font-face {
+    font-family: haihai;
+    src: url(../media/AmericanCaptain-MdEY.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.body1820{
+    margin: 0;
+    border: 0;
+    scroll-behavior: smooth;
+}
+
+.bar820{
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+}
+.navigation820 a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-family: haihai;
+    padding-left: 30px;
+  
+}
+.main820{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    background: url(../media/232-2327600_france-fifa-world-cup-2018.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: haihai;
+    font-size: 8em;
+    color: white;
+    padding:4.5em 0 0 0.4em ;
+    box-shadow: inset 0 0 5em blue;
+}
+.sec1820{
+    background-color: rgba(104, 143, 202, 0.815);
+    width: 100%;
+    min-height: 92vh;
+}
+.s-1820{
+    box-sizing: border-box;
+   width: 21%;
+   height: 33em;
+   margin-left:9em ;
+   background-color: rgb(34, 34, 143);
+   border-radius: 2em;
+}
+.g-820{
+   box-sizing: border-box;
+   
+   width: 100%;
+   height: 25%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 2.5em;
+}
+.g-820 h1{
+    font-size: 80px;
+    font-family: haihai;
+    color: rgb(255, 255, 255);
+}
+.g-1-820{
+    color: rgba(128, 128, 128, 0.959);
+    font-family: haihai;
+    font-size: 2.3em;
+}
+.g-2-820{
+    color: rgb(0, 0, 0);
+    font-family: haihai;
+    font-size: 3.4em;
+}
+
+.sec1820 h1 {
+    font-family: haihai;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+}
+.sec2820 {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+.sec2820 div {
+    box-sizing: border-box;
+    width: 60%;
+    margin: 5em 22em;
+}
+.sec2820 div h1{
+    font-size: 3.5em;
+    font-weight: lighter;
+}
+.sec2820 div p{
+    color: rgb(96, 97, 99);
+    font-size: 1.8em;
+}
+.sec2820 div video{
+    width: 100%;
+}
+.sec3820{
+    margin: 5em 12em;
+}
+.sec3820 h1{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(18, 18, 155);
+    font-size: 2.1em;
+    font-weight: 500;
+}
+.s3-820{
+    display: flex;
+}
+.s3-1820{
+    width: 25%;
+    margin: 1.5em;
+    box-shadow:  0 0 1em gray;
+    padding: .5em 1em;
+    border-radius: 1em;
+    transition: .4s ease;
+}
+.s3-1820 h5{
+    color: rgb(96, 97, 99);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+}
+.s3-1820 h1{
+    font-weight: 700;
+}
+.s3-1820:hover{
+    transform: scale(1.1);
+    background-color: #574279;
+}
+.sec4820{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5em 12em;
+}
+.s4-1-820{
+    width: 100%;
+    border-radius: 1em;
+    background-color: #fcfcfcef;
+}
+.s4-2-820{
+    margin-top: 2.5em;
+    width: 100%;
+    height: 5em;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgba(211, 211, 253, 0.897);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-weight:500;
+    padding: 0 30%;
+}
+.sec4820 h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-weight: 500;
+    color: purple;
+}
+.s4-2-820 img{
+    width: 3em;
+    height: 2em;
+    margin: .5em;
+}
+.s4-2-820 span{
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 1em;
+    background-color: rgb(207, 197, 197);
+    margin: 0 .5em;
+    width: 3em;
+    padding: .5em .7em;
+    font-size: 1.5em;
+}
+.s4-2-820:hover{
+    background-color: rgb(207, 197, 197);
+}
+.sec5820{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5em 12em;
+}
+.s5-2-820 {
+    box-sizing: border-box;
+    width: 40%;
+    margin: 30px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow:  0 0 30px gray;
+    border-radius: 2em;
+    padding: 1.5em;
+    font-size: 1.5em;
+    color: #635f5f;
+    height: 40hv;
+}
+.s5-2-820 img{
+    width: 80%;
+}
+.s5-1-820{
+    display: flex;
+}
+.sec5820 a{
+    text-decoration:none;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: purple;
+}
+.sec5820 a:hover{
+    color: blue;
+
+}
+.body-mmo1{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    background-color: #16164e;
+    scroll-behavior: smooth;
+}
+.main-mmo1{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+   
+   
+}
+#m-820{
+    box-sizing: content-box;
+    margin: 5em;
+    width: 40%;
+    height: 37em;
+    background-image: url("../media/IMG_20220506_162335.jpg");
+    background-size: cover;
+    box-shadow: inset -10em -10em 10em  #16164e , inset 10em 10em 10em  #16164e  ;
+    border-radius: 3em;
+}
+.h-mmo{
+    display: flex;
+    align-items: center;
+    padding: 0 200px;
+    justify-content: space-between;
+}
+.h-mmo img{
+ width: 8em;
+ height: 5em;
+}
+.h-mmo nav a{
+      text-decoration: none;
+      margin:
+       30px;
+      font-size: 1.5em;
+      color: white;
+}
+.l-mmo
+{
+   width: 50%;
+   height: 39em;
+   margin: 30px;
+}
+.l-1-mmo{
+    width: 50%;
+    height: 28em;
+    background-color: white;
+    margin: 5em 11em;
+    box-shadow: 3em 3em 3em  #00000059 ;
+    border-radius: .5em;
+}
+.l-1-mmo h1{
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(36, 30, 119);
+    padding: .8em 1.3em;
+}
+.l-1-mmo form{
+    padding: 0 0 .8em 2.5em;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+.l-1-mmo form input{
+    width : 75%;
+    height:1.5em;
+}
+.l-1-mmo form button{
+    width: 75%;
+    height: 3em;
+    font-size: .7em;
+    border-radius: 1em;
+    background-color: rgb(42, 12, 99);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    transition: .3s ease;
+}
+.l-1-mmo form button:hover{
+    background-color: rgb(64, 22, 141);
+    transform: scale(1.1);
+}
+.l-1-mmo a{
+     padding: 0 0 0 3em;
+     text-decoration: none;
+     color: #16164e ;
+     font-family:'Roboto', sans-serif;
+}
+.s1-mmo{
+padding: 3em;
+
+}
+.s1-1-mmo{
+    width: 100%;
+    display: inline-block;
+    padding: 2.5em;
+    background: linear-gradient(rgb(60, 60, 192),rgb(113, 113, 209));
+    width: 29%;
+    min-height: 50vh;
+    margin: 1.5em;
+    box-sizing: border-box;
+    border-radius: 3em;
+    padding: 3em;
+}
+.s1-1-1-1-mmo{
+    display: flex;
+   
+}
+
+.s1-1-2-mmo {
+    border-radius: 5em;
+    width: 9em;
+    min-height: 9em;
+    background-color: white;
+    padding: .2em;
+    border: solid .2em#16164e;
+
+}
+.s1-1-2-mmo img{
+    width: 9em;
+    display: block;
+    border-radius:5em ;
+}
+.s1-1-3-mmo {
+    font-family: 'Roboto', sans-serif ;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 2em .8em;
+    color: white;
+}
+.s1-1-mmo ul{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    margin-top: 3em;
+}
+.s1-1-mmo ul li a{
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    font-family:'Roboto', sans-serif ;
+
+}
+.s1-1-mmo ul li {
+    margin: .8em;
+}
+.s2-mmo{
+    box-sizing: border-box;
+    background-color: rgb(254, 254, 255);
+    width: 100%;
+    min-height: 100vh;
+    padding: 2% 4%;
+}
+.s2-1-mmo{
+   width: 100%;
+   display: block;
+}
+.s2-1-mmo a{
+    text-decoration: none;
+}
+
+.s2-1-mmo h1{
+    text-align: center;
+    font-size: 3em;
+    color: #16164e;
+}
+.s2-1-1-mmo{
+    box-sizing: border-box;
+    width: 22%;
+    min-height: 24em;
+    box-shadow: 1em 1em 5em rgba(7, 3, 43, 0.555);
+    padding: 3% 1% ;
+    background-color: white;
+    margin: 1%;
+    transition: 1s ease;
+    border-radius: 3em;
+    
+}
+.s2-1-1-mmo :hover{
+    transform: scale(1.04);
+}
+.s2-1-2-mmo img{
+    width: 90%;
+    height: 12em;
+    border-radius: 1em;
+    padding: 1em 2em;
+}
+.s2-1-1-mmo h2{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(3, 3, 134);
+    position: absolute;
+
+}
+.s2-1-mmo div{
+    display: inline-block;
+}
+.cursor820{
+    width: 2em;
+    height: 2em;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    transition: all .3s ease;
+    transition-property: back-ground,transform;
+    transform-origin: 100% 100%;
+    z-index: -1;
+    
+}
+.linkgrow820{
+    transform: scale(2);
+    background-color: black;
+}
+
+.h-mmo nav a{
+    padding: .5em;
+    z-index: 3;
+}
+.body2-mmo{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    background-color: #00002b;
+    scroll-behavior: smooth;
+}
+.main-mmo2{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding:  1% 3%;
+}
+.m-2-mmo2{
+    width: 30%;
+    box-sizing: border-box;
+    height: 80%;
+    margin: 4%;
+    text-align: center;
+    padding:  0 5%;
+    font-family: haihai;
+}
+.m-2-1-mmo2{
+    width: 50%;
+    border-radius: 40% 40%;
+}
+.m-2-mmo2 h1{
+    font-size: 3em;
+    color: white;
+    letter-spacing: .1em;
+}
+.m-2-mmo2 h3{
+    font-size: 2em;
+    color: rgb(53, 53, 163);
+}
+.m-2-mmo2 img{
+    border-radius: 50% 50%;
+}
+.m-1-mmo2{
+    width: 50%;
+    background-image:url("../media/euro2.webp");
+    background-size: cover;
+    box-shadow: inset -5em -5em 11em #00002b  , inset 5em 5em 11em  #00002b ;
+    border-radius: 1em;
+    height: 80%;
+    margin: 4%;
+}
+.s1-mmo2 {
+width: 100%;
+box-sizing: border-box;
+padding: 5%;
+}
+.s1-2-mmo2 {
+    padding: 2em;
+    width: 25%;
+    height: 25vh;
+    background-color: white;
+    border-radius: 5%;
+    margin: 2em;
+}
+.s1-mmo2 h1{
+      font-family:'Roboto', sans-serif ;
+      font-size: 3em;
+      font-weight: 900;
+      letter-spacing: .1em;
+      color: #fff;
+}
+.s1-1-mmo2{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(44, 43, 43);
+    font-size: 2em;
+    border-collapse: collapse;
+}
+.s1-1-mmo2  td{
+    border-bottom: 2px solid black;
+    
+}
+.s1-1-mmo2 tr{
+    border-collapse: collapse;
+    border: 0;
+}
+/*start*/
+
+
+.s1-3-mmo2 {
+    padding: 2em;
+    width: 25%;
+    height: 50vh;
+    background-color: white;
+    border-radius: 5%;
+    margin: 2em;
+}
+.s1-4-mmo2{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(44, 43, 43);
+    font-size: 2em;
+    border-collapse: collapse;
+}
+.s1-4-mmo2  td{
+    border-bottom: 2px solid black;
+    
+}
+.s1-4-mmo2 tr{
+    border-collapse: collapse;
+    border: 0;
+}
+.s1-6-mmo2{
+    display: flex;
+    width: 100%;
+}
+.s2-mmo2{
+    width: 100%;
+    box-sizing: border-box;
+}
+.s2-mmo2 h1{
+    font-family:'Roboto', sans-serif ;
+    font-size: 3em;
+    font-weight: 900;
+    letter-spacing: .1em;
+    color: #fff;
+    padding: 5%;
+}
+.s2-mmo2 p{
+    font-family:'Roboto', sans-serif ;
+    font-size: 2em;
+    color: darkgray;
+    padding: 5%;
+}
+.s2-mmo2 p a{
+    display: block;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif ;
+    font-size: 1em;
+    color: white;
+    transition: .5s ease;
+}
+.s2-mmo2 p a:hover{
+    color: gray;
+    transform:scale(1.1);
+    padding:  0 5%;
+}
